@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="@dimen/_500sdp"
+    android:background="@drawable/back_style_result_b"
+    tools:context=".screen.GameScreen">
+
+
+
+    <ImageView
+
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/ic_coin_svgrepo_com__2_"
+        app:layout_constraintBottom_toBottomOf="@id/coinsCount"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/coinsCount"
+        app:layout_constraintTop_toTopOf="@id/coinsCount"
+        app:tint="#FFC107" />
+
+    <TextView
+
+        android:id="@+id/coinsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:text="420"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+
+        android:id="@+id/levelComplete"
+        app:layout_constraintTop_toBottomOf="@id/coinsCount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:gravity="center"
+        android:background="#23090909"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" >
+
+        <TextView
+
+            android:textSize="@dimen/_26sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/level_complete"
+            android:shadowDy="10"
+            android:shadowDx="10"
+            android:shadowRadius="10"
+            android:shadowColor="#4CAF50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/answer"
+        app:layout_constraintTop_toBottomOf="@id/levelComplete"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal" >
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_32sdp"
+                android:padding="@dimen/_5sdp"
+                android:clickable="false"
+                android:background="@drawable/back_style_answer"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/continueGame"
+        app:layout_constraintTop_toBottomOf="@id/answer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:textSize="@dimen/_16sdp"
+        android:text="@string/continuet"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:background="@drawable/back_style_image"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

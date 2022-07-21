@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable-v24/back_style_result.xml" value="0.1805" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_button.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_cancel.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_delete.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_dialog.xml" value="0.1805" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_image.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_menu.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_result_b.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_sound.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_title.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/back_style_variants.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_baseline_brush_24.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1805" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/ic_menu_list_svgrepo_com.xml" value="0.1335" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/thumb.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/drawable/track.xml" value="0.19" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/activity_main.xml" value="0.19583333333333333" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/delete_dialog.xml" value="0.19895833333333332" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/episode_dialog.xml" value="0.19583333333333333" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/game_screen.xml" value="0.19583333333333333" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/info_dialog.xml" value="0.19895833333333332" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/item_episode.xml" value="0.2" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/language_dialog.xml" value="0.25" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/main_screen.xml" value="0.2" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/result_dialog.xml" value="0.2" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/settings_dialog.xml" value="0.19895833333333332" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/splash_screen.xml" value="0.20010422094841063" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/warning_dialog.xml" value="0.2" />
+        <entry key="..\:/GITA/Fourpicturesonewords/app/src/main/res/layout/win_dialog.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
